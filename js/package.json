@@ -2,9 +2,8 @@
   "name": "kucoe",
   "version": "1.0.0",
   "description": "kucoe.net tests",
-  "main": "kucoe.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha js/UserClickTour.js --timeout 15000"
+    "test": "node_modules/.bin/mocha UserClickTour.js --timeout 15000"
   },
   "repository": {
     "type": "git",
