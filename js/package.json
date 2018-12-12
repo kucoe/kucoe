@@ -4,18 +4,18 @@
   "description": "kucoe.net tests",
   "main": "kucoe.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha Tests/DefaultTest.js --timeout 10000"
+    "test": "node_modules/.bin/mocha js/UserClickTour.js --timeout 15000"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kucoe.git"
+    "url": "git+https://github.com/kucoe/kucoe.git"
   },
   "author": "azerdudukyan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kucoe/issues"
+    "url": "https://github.com/kucoe/kucoe/issues"
   },
-  "homepage": "https://github.com/kucoe#readme",
+  "homepage": "https://github.com/kucoe/kucoe#readme",
   "dependencies": {
     "chai": "^4.2.0",
     "mocha": "^5.2.0",
