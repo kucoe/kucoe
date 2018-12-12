@@ -4,7 +4,7 @@
   "description": "kucoe.net tests",
   "main": "kucoe.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/.bin/mocha Tests/DefaultTest.js --timeout 10000"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/kucoe#readme",
   "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
     "selenium-webdriver": "^4.0.0-alpha.1"
   }
 }
