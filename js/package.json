@@ -1,0 +1,22 @@
+{
+  "name": "kucoe",
+  "version": "1.0.0",
+  "description": "kucoe.net tests",
+  "main": "kucoe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kucoe.git"
+  },
+  "author": "azerdudukyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kucoe/issues"
+  },
+  "homepage": "https://github.com/kucoe#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
